@@ -7,6 +7,7 @@ import Button from "./components/Button"
 import Clique from "./components/Clique"
 import ComponenteA from "./components/ComponenteA"
 import ComponenteB from "./components/ComponenteB"
+import Ciclo from "./components/Ciclo"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Button onClick={() => Clique(10,10)} name="Clicar2"/>
         </ComponenteB>
       </ComponenteA>
+      <Ciclo />
     </div>
   );
 }

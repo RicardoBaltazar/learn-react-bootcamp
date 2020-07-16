@@ -10,6 +10,8 @@ import ComponenteB from "./components/ComponenteB"
 import Ciclo from "./components/Ciclo"
 import Condicional from "./components/Condicional"
 import ListsAndKeys from "./components/ListasEChaves"
+import Eventos from "./components/Eventos"
+import EventDelete from "./components/EventDelete"
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Ciclo />
       <Condicional />
       <ListsAndKeys />
+      <Eventos />
+      <EventDelete />
     </div>
   );
 }

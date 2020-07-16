@@ -8,6 +8,7 @@ import Clique from "./components/Clique"
 import ComponenteA from "./components/ComponenteA"
 import ComponenteB from "./components/ComponenteB"
 import Ciclo from "./components/Ciclo"
+import Condicional from "./components/Condicional"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </ComponenteB>
       </ComponenteA>
       <Ciclo />
+      <Condicional />
     </div>
   );
 }

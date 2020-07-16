@@ -9,6 +9,7 @@ import ComponenteA from "./components/ComponenteA"
 import ComponenteB from "./components/ComponenteB"
 import Ciclo from "./components/Ciclo"
 import Condicional from "./components/Condicional"
+import ListsAndKeys from "./components/ListasEChaves"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       </ComponenteA>
       <Ciclo />
       <Condicional />
+      <ListsAndKeys />
     </div>
   );
 }
